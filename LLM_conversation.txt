@@ -1,0 +1,29 @@
+
+LLM Conversation: PubMed Research Paper Fetcher (Pharma/Biotech Filtered)
+Date: August 1, 2025
+
+This is a complete conversation between the user and OpenAI's ChatGPT (GPT-4o) used to assist in building the PubMed search and filtering tool for non-academic research authors.
+
+---
+
+User Request:
+- Create a Python tool to search PubMed using its API.
+- Download metadata of papers and filter authors affiliated with pharmaceutical/biotech companies.
+- Save results with download links in a CSV file.
+- Follow guidelines from a provided "Backend takehome problem" PDF.
+
+
+ChatGPT Helped With:
+- Designing overall architecture using Biopython and Entrez API.
+- Differentiating between `esummary` and `efetch` to get proper author affiliations.
+- Writing modular Python code including CLI, core logic, heuristic filters, and dataclasses.
+- Setting up the Poetry environment and `pyproject.toml` for packaging.
+- Fixing runtime issues (e.g., `ModuleNotFoundError`, permission denied errors).
+- Improving heuristics to detect non-academic affiliations.
+- Generating a professional `README.md` that explains the project structure, usage, and purpose.
+- Ensuring LLM usage was transparently documented per submission requirements.
+
+
+
+
+Tool used: ChatGPT (GPT-4o)
