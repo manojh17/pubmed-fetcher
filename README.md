@@ -47,17 +47,20 @@ This approach ensures:
 
 ## 🧱 Project Structure
 
-pubmed_fetcher/
-├── pubmed_fetcher/
-│ ├── init.py
-│ ├── cli.py # CLI interface
-│ ├── core.py # Main fetch & parse logic
-│ ├── heuristics.py # Logic to detect non-academic affiliations
-│ └── types.py # Typed dataclass for paper structure
-├── tests/
-│ └── test_core.py # (Optional test file)
-├── pyproject.toml # Poetry config
-└── README.md
+pubmed_fetcher /
+
+   pubmed_fetcher /
+      init.py,
+      cli.py ,
+      core.py,
+      heuristics.py,
+      types.py,
+
+
+      
+   pyproject.toml,
+   README.md,
+
 
 
 ### Step 1: Clone the repository
